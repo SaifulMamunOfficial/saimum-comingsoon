@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saimum - সাইমুম | Coming Soon</title>
+    <meta name="description"
+        content="সুস্থ ও মননশীল সংস্কৃতি চর্চায় ১৯৭৭ সাল থেকে সাইমুম শিল্পীগোষ্ঠীর পথচলা। সমৃদ্ধ আর্কাইভ ও সৃষ্টিসম্ভার নিয়ে খুব শীঘ্রই ফিরছি আমরা।">
+    <meta name="keywords" content="Saimum, সাইমুম, সাইমুম শিল্পীগোষ্ঠী, ইসলামিক সংস্কৃতি, Coming Soon, saimum.org">
+    <meta property="og:title" content="সাইমুম শিল্পীগোষ্ঠী | Coming Soon">
+    <meta property="og:description"
+        content="সুস্থ ও মননশীল সংস্কৃতি চর্চায় ১৯৭৭ সাল থেকে সাইমুম শিল্পীগোষ্ঠীর পথচলা। সমৃদ্ধ আর্কাইভ নিয়ে শীঘ্রই ফিরছি আমরা।">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saimum.org">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Background Animated Gradient & Particle Canvas -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+    <canvas id="particle-canvas"></canvas>
+
+    <div class="wrapper">
+        <!-- Navigation / Header -->
+        <header class="header">
+            <div class="brand">
+                <div class="brand-logo-wrapper">
+                    <img src="assets/images/logo.png" alt="সাইমুম লোগো" class="brand-logo-img">
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">সাইমুম</span>
+                </div>
+            </div>
+
+            <div class="header-status">
+                <span class="pulse-dot"></span>
+                <span class="status-label">আসছে শীঘ্রই • 2026</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Badge -->
+            <div class="announcement-badge">
+                <i class="fa-solid fa-sparkles"></i>
+                <span>সুস্থ সংস্কৃতির পথিকৃৎ সংগঠন</span>
+            </div>
+
+            <!-- Title & Description -->
+            <h1 class="hero-title">
+                সাইমুম শিল্পীগোষ্ঠী<br>
+                <span class="gradient-text">আমরা ফিরছি নতুন রূপে</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                সুস্থ ও মননশীল সংস্কৃতি চর্চায় ১৯৭৭ সাল থেকে সাইমুম শিল্পীগোষ্ঠীর পথচলা।<br>
+                সুদীর্ঘ এই পথচলার সমৃদ্ধ ইতিহাস, কালজয়ী আর্কাইভ ও সৃষ্টিসম্ভার নিয়ে খুব শীঘ্রই ফিরছি আমরা।
+            </p>
+
+            <!-- Countdown Timer -->
+            <div class="countdown-container" id="countdown">
+                <div class="countdown-box">
+                    <div class="time-card">
+                        <span class="time-number" id="days">00</span>
+                    </div>
+                    <span class="time-label">দিন (Days)</span>
+                </div>
+
+                <div class="countdown-separator">:</div>
+
+                <div class="countdown-box">
+                    <div class="time-card">
+                        <span class="time-number" id="hours">00</span>
+                    </div>
+                    <span class="time-label">ঘণ্টা (Hours)</span>
+                </div>
+
+                <div class="countdown-separator">:</div>
+
+                <div class="countdown-box">
+                    <div class="time-card">
+                        <span class="time-number" id="minutes">00</span>
+                    </div>
+                    <span class="time-label">মিনিট (Mins)</span>
+                </div>
+
+                <div class="countdown-separator">:</div>
+
+                <div class="countdown-box">
+                    <div class="time-card">
+                        <span class="time-number" id="seconds">00</span>
+                    </div>
+                    <span class="time-label">সেকেন্ড (Secs)</span>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://www.facebook.com/saimum1978" target="_blank" rel="noopener noreferrer"
+                    class="social-btn" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/c/saimumshilpigosthiofficial" target="_blank" rel="noopener noreferrer"
+                    class="social-btn" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/saimumshilpigosthi" target="_blank" rel="noopener noreferrer"
+                    class="social-btn" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://t.me/saimumshilpigosthi" target="_blank" rel="noopener noreferrer" class="social-btn"
+                    aria-label="Telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="mailto:info@saimum.org" class="social-btn" aria-label="Email">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span> <strong>সাইমুম শিল্পীগোষ্ঠী</strong> • সর্বস্বত্ব সংরক্ষিত
+            </p>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
