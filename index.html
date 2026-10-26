@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Base URL & Auto-redirect to home on sub-paths -->
+    <script>
+        if (location.protocol !== 'file:') {
+            document.write('<base href="/">');
+            if (location.pathname !== '/' && location.pathname !== '') {
+                window.location.replace('/');
+            }
+        }
+    </script>
     <title>Saimum - সাইমুম | Coming Soon</title>
     <meta name="description"
         content="সুস্থ ও মননশীল সংস্কৃতি চর্চায় ১৯৭৭ সাল থেকে সাইমুম শিল্পীগোষ্ঠীর পথচলা। সমৃদ্ধ আর্কাইভ ও সৃষ্টিসম্ভার নিয়ে খুব শীঘ্রই ফিরছি আমরা।">
